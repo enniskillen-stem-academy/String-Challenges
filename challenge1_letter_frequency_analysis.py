@@ -12,11 +12,11 @@ Instructions:
 """
 
 # Starter Code
-def analyze_letter_frequency(text):
+def analyse_letter_frequency(text):
     """
-    Analyze the frequency of letters in the given text.
+    analyse the frequency of letters (how many times they appear) in the given text.
     Args:
-        text (str): Input text to analyze.
+        text (str): Input text to analyse.
     Returns:
         list: Top five most frequent letters with their counts.
     """
@@ -34,10 +34,10 @@ def analyze_letter_frequency(text):
     return top_five
 
 # Example Input
-text = "This is a simple example to analyze letter frequency."
+text = "This is a simple example to analyse letter frequency."
 
-# Analyze and Print Results
-results = analyze_letter_frequency(text)
+# analyse and Print Results
+results = analyse_letter_frequency(text)
 print("Top 5 most frequent letters:")
 for letter, count in results:
     print(f"'{letter}' appears {count} times.")
